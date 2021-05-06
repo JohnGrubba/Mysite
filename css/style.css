@@ -1,0 +1,199 @@
+html {
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+
+body
+{
+    font-family: ISOCPEUR, Arial, Verdana, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 100%;
+}
+nav li {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+nav li a.active {
+    background-color: #39b93e;
+    color: white;
+}
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+content img{
+    margin-top: 1%;
+    height: 10%;
+    width: auto;
+    display: flex;
+}
+content{
+    display: flex;
+    margin: auto;
+}
+
+header{
+    font-size: 4em;
+    vertical-align: text-bottom;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+content ul:hover{
+    opacity: 100%;
+    -webkit-transition: ease-in 0.2s;
+}
+family ul:hover{
+    opacity: 100%;
+    -webkit-transition: ease-in 0.2s; 
+}
+content ul{  
+    opacity: 90%;
+    -webkit-transition: ease-in 0.5s;
+    margin-left: 15%;
+    width: 50%;
+    list-style-type: none;
+    
+    border: 1px solid black;
+    background-color: gray;
+}
+content ul li#ans{
+    float: right;
+    font-size: 2em;
+    border-radius: 1em;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+content ul li{
+    font-size: 2em;
+    border-radius: 1em;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+content text{
+    font-size: 100%;
+}
+
+/* Schulisches */
+content#schulisches text#ans{
+    max-width: 10%;
+    color: green;
+}
+content#schulisches ul{
+    margin-left: 10%;
+    margin-right: auto;
+    width: 80%;
+    list-style-type: none;
+    
+    border: 1px solid black;
+    background-color: gray;
+}
+content#schulisches ul li{
+    font-size: 2em;
+    border-radius: 1em;
+
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+family ul{
+    opacity: 90%;
+    -webkit-transition: ease-in 0.5s;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 80%;
+    list-style-type: none;
+    
+
+    background-color: gray;
+}
+family ul li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+family ul li text{
+
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
+footer {
+    -webkit-transition: ease-in 0.5s;
+	background:#2F2C2C;
+	text-align:left;
+}
+footer ul {
+	width:100%;
+	max-width:980px;
+	text-align:left;
+	margin:0px auto;
+}
+footer ul li {
+	display:inline;
+	font-size:0.8em;
+	line-height:2.8em;
+	color:#E2DBDB;
+	padding:0em 0.625em 0em 0.625em
+}
+map{
+    -webkit-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s;
+    margin-left: 25%;
+    margin-right: auto;
+}
+map text{
+    color: white;
+    margin-left: 25%;
+    text-align: center;
+}
