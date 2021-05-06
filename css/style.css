@@ -34,9 +34,14 @@ html {
 
 body
 {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: ISOCPEUR, Arial, Verdana, Helvetica, sans-serif;
     font-style: italic;
     font-size: 100%;
+    overflow: hidden;
 }
 nav li {
     float: left;
@@ -72,8 +77,8 @@ nav li a:hover:not(.active) {
 }
 
 content img{
-    margin-top: 1%;
-    height: 10%;
+    margin-top: 1.5%;
+    height: 15%;
     width: auto;
     display: flex;
 }
@@ -100,8 +105,8 @@ family ul:hover{
 content ul{  
     opacity: 90%;
     -webkit-transition: ease-in 0.5s;
-    margin-left: 15%;
-    width: 50%;
+    margin-left: -5%;
+    width: 100%;
     list-style-type: none;
     
     border: 1px solid black;
@@ -166,10 +171,11 @@ family ul li{
 family ul li text{
 
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 100%;
 }
 footer {
+    margin-top: auto;
     -webkit-transition: ease-in 0.5s;
 	background:#2F2C2C;
 	text-align:left;
@@ -178,9 +184,10 @@ footer ul {
 	width:100%;
 	max-width:980px;
 	text-align:left;
-	margin:0px auto;
+    margin-top: auto;
 }
 footer ul li {
+    margin-top: auto;
 	display:inline;
 	font-size:0.8em;
 	line-height:2.8em;
